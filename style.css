@@ -41,7 +41,7 @@ nav a{
 span.url {
 	font-family:Georgia,serif;
 }
-small,.small,footer,figcaption{
+small,.small,footer{
 	font-size:0.8em;
 	color:#666
 }
@@ -136,6 +136,31 @@ body#home main ul li{
 }
 body#home main section#photos img{
 	display:inline
+}
+#education img { float: left; margin-right: 0.5em; max-width: 75px; max-height: 120px; width: auto; height: auto; }
+#education dt,#experience dt { margin-top: 0 }
+#education br { clear: both }
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 20px;
+}
+figure{
+	display: flex;
+	flex-basis: 16.66%;
+  	flex-direction: column;
+  	text-align: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+figure img{
+	margin-bottom: 10px;
+	max-width: 75px;
+	max-height: 75px;
+	height: auto;
+	object-fit: cover;
 }
 hr.main-seperator{
 	border: none;
