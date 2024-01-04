@@ -47,6 +47,10 @@ small,.small,footer{
 	font-size:0.8em;
 	color:#666
 }
+#index{
+	font-size: 0.8em;
+	line-height: 0;
+}
 h1,h2,h3,label,header#masthead{
 	line-height:1em
 }
